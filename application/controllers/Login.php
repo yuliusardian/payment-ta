@@ -14,7 +14,7 @@ class login extends CI_Controller
 
 	function index(){
 		if (!empty($this->session->userdata("USERNAME")))
-			redirect(base_url("mobil"));
+			redirect(base_url("PaymentUser"));
 
 		$this->load->view("v_login");
 	}
@@ -26,7 +26,7 @@ class login extends CI_Controller
 		
 		if ($user) {
 			$this->session->set_userdata((array)$user);
-			redirect(site_url("mobil"));
+			redirect(site_url("PaymentUser"));
 		}else{
 			redirect($this->index());
 		}
