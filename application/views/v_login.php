@@ -24,7 +24,7 @@
                         <div class="block-content block-content-full block-content-narrow">
 
                             <center>
-                            <h1 class="h3 font-w600 push-30-t push-5" style="color:white">Sistem Informasi Rental Mobil</h4>
+                            <h1 class="h3 font-w600 push-30-t push-5" style="color:white">Sistem Informasi Pembayaran</h1>
                             </center>
                             <br><br><br><br>
                             <p style="color:white" class="text-center">Welcome, please login.</p>
